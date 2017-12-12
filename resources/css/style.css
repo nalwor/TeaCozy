@@ -1,0 +1,98 @@
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+}
+/* header */
+header {
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  opacity: 0.9px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+header.logo {
+  padding: 10px;
+  height: 50px;
+}
+header nav {
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 22px;
+  padding-right: 5px;
+}
+header a {
+    padding: 10px;
+    text-decoration: underline;
+    color: seashell;
+}
+/* main */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 69px;
+}
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+.mission-text{
+  width: 1200px;
+  background-color: black;
+  text-align: center;
+  color: seashell;
+  font-family: Helvetica;
+}
+/* types */
+.middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 69px;
+}
+.tea-title{
+  padding-top: 50px;
+  text-align: center;
+}
+.tea {
+  display: flex;
+  align-items:
+  justify-content: center;
+  flex-wrap:wrap;
+  width: 1000px;
+}
+.tea-1 {
+  background-image: url(../images/img-berryblitz.jpg);
+  width: 200px;
+  height: 300px;
+}
+.tea-2 {background-image: url(../images/img-berryblitz.jpg);
+  width: 200px;
+  height: 300px;
+}
+.tea-3 {background-image: url(../images/img-berryblitz.jpg);
+  width: 200px;
+  height: 300px;
+}
+.tea-4 {background-image: url(../images/img-berryblitz.jpg);
+  width: 200px;
+  height: 300px;
+}
+.tea-5 {background-image: url(../images/img-berryblitz.jpg);
+  width: 200px;
+  height: 300px;
+}
