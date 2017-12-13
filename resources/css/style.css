@@ -17,15 +17,13 @@ header {
   top: 0;
   z-index: 2;
 }
-header.logo {
-  padding: 10px;
+.logo {
   height: 50px;
 }
 header nav {
   display: inline-block;
   font-family: Helvetica;
   font-size: 22px;
-  padding-right: 5px;
 }
 header a {
     padding: 10px;
@@ -58,41 +56,47 @@ header a {
 /* types */
 .middle {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   position: relative;
   top: 69px;
 }
-.tea-title{
+.tea-title {
+  display: inline-block;
   padding-top: 50px;
   text-align: center;
 }
 .tea {
   display: flex;
-  align-items:
-  justify-content: center;
-  flex-wrap:wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
   width: 1000px;
+  height: 1000px;
+
 }
 .tea-1 {
   background-image: url(../images/img-berryblitz.jpg);
   width: 200px;
   height: 300px;
 }
-.tea-2 {background-image: url(../images/img-berryblitz.jpg);
+.tea-2 {
+  background-image: url(../images/img-berryblitz.jpg);
   width: 200px;
   height: 300px;
 }
-.tea-3 {background-image: url(../images/img-berryblitz.jpg);
+.tea-3 {
+  background-image: url(../images/img-berryblitz.jpg);
   width: 200px;
   height: 300px;
 }
-.tea-4 {background-image: url(../images/img-berryblitz.jpg);
+.tea-4 {
+  background-image: url(../images/img-berryblitz.jpg);
   width: 200px;
   height: 300px;
 }
-.tea-5 {background-image: url(../images/img-berryblitz.jpg);
+.tea-5 {
+  background-image: url(../images/img-berryblitz.jpg);
   width: 200px;
   height: 300px;
 }
